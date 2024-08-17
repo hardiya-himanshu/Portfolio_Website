@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inder", sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
