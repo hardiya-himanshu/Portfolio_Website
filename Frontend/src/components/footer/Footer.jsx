@@ -1,11 +1,12 @@
 import React from 'react'
+import portfolioTheme from '../../higher_order_function/portfolioTheme'
 
-function Footer() {
+function Footer({darkMode}) {
   return (
-    <div>
-      
+    <div className={`${darkMode?"bg-customDark text-customWhite":'bg-customLight text-customBlack'} min-h-96 `}>
+      d
     </div>
   )
 }
 
-export default Footer
+export default portfolioTheme(Footer)

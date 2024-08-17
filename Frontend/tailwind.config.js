@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        customBlue: {
-          light: '#3A7CA5',
-          DEFAULT: '#2563EB',
-          dark: '#1D4ED8',
-        },
-        customGreen: '#10B981',
+        customLight: '#E6E6E6',
+        customLight2: '#FFFFFF',
+        customDark: '#262626',
+        customDark2: '#737373',
+        customBlack: 'black',
+        customWhite: 'white'
       },
     },
   },
